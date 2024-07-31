@@ -1,0 +1,46 @@
+header{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #015e4280;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+h1{
+  font-size: 55px;
+  font-family: 'MiFuente';
+}
+p{
+  width: 500px;
+  font-size: 25px;
+}
+.fondo{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+.contenido{
+  padding: 0 100px;
+  
+}
+.voluntariado{
+  width: 100%;
+  height: 100%;
+}
+input{
+  width: 30%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+.walnesy{
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}

@@ -1,0 +1,73 @@
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+}
+.titulo{
+  text-align: center;
+  font-size: 80px;
+  color: #003b2a;
+  font-family: 'MiFuente';
+}
+.imagen{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.contenido{
+  padding: 0 40px;
+}
+.slide-custom{
+  background-color: #003b2a;
+  border-radius: 25px;
+  min-height: 640px;
+  box-sizing: border-box;
+
+}
+main{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.swiper-agenda{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+button{
+  position: absolute;
+  z-index: 10;
+  width: 70px;
+  height: 70px;
+  background-color: #015e42;
+  border: 5px solid #003b2a;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius:50px;
+  
+}
+
+.buton-slide{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.swiper-button-agenda-prev{
+  left: 0; 
+  
+}
+.swiper-button-agenda-next{
+ right: 0;
+}
