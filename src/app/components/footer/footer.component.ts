@@ -31,10 +31,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     </div>
   </div>
   <div class="footer-social">
-    <a href="#"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
-    <a href="#"><img src="path/to/linkedin-icon.png" alt="LinkedIn"></a>
-    <a href="#"><img src="path/to/youtube-icon.png" alt="YouTube"></a>
-    <a href="#"><img src="path/to/instagram-icon.png" alt="Instagram"></a>
+    <a href="#"><img src="/icon/facebook-icon.svg" alt="Facebook"></a>
+    <a href="#"><img src="/icon/linkedin-icon.svg" alt="LinkedIn"></a>
+    <a href="#"><img src="/icon/youtube-icon.svg" alt="YouTube"></a>
+    <a href="#"><img src="/icon/instagram-icon.svg" alt="Instagram"></a>
   </div>
   <div class="footer-credits">
     <p>Desarrollada por ChooseAgencia © 2024</p>
