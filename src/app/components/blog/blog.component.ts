@@ -13,11 +13,11 @@ register();
     CommonModule,
   ],
   template: `
-    <header>
+    <header>    <img class="fondo" src="blog/fondo-blog.png" alt="">
   <h1 class="titulo">  BLOG
     </h1>
   <main>
-    <img class="fondo" src="blog/fondo-blog.png" alt="">
+
     
     <swiper-container init=false class="swiper-blog">
        @for (item of swiperObjects; track $index) {
@@ -32,7 +32,6 @@ register();
     </swiper-container>
           <button class="swiper-button-prev"> < </button>    
           <button class="swiper-button-next"> > </button> 
-
           </main></header> `,
   styleUrl: './blog.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

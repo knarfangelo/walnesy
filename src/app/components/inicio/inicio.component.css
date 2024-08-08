@@ -1,10 +1,65 @@
 header{
   width: 100%;
   height: 100vh;
+  font-size: 2vw;
 }
 
-img{
+
+
+main{
   width: 100%;
   height: 100%;
+  position: relative;
+  color: #fff;
+}
+.contenido{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  font-size: 500%;
+  width: 50%;
+  height: 100%;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0em #015E42;
+}
+h1,h3{
+  margin: 0;
+  padding: 0;
+  font-family: 'MiFuente', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+  font-size: 2em;
+}
+h1{
+  font-size: 3em;
+}
+.colegio{
+  display: flex;
   object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.voluntariado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  font-family: 'MiFuente', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  text-shadow: none;
+  text-decoration: none;
+  color: #fff;
+  background-color: #015E42;
+  margin: 20px 0;
+}
+.voluntariado:hover{
+  background-color: #009E45;
+  color: #fff;
 }

@@ -9,13 +9,16 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   ],
   template: `
     <nav>
-      <img class="logo" src="logo.png" alt="">
-      <img class="burguer" src="responsive.svg" alt="">
-      <ul class="lista">
+      <ul>
+        <li><a href=""><img src="logo.png" alt=""></a></li>
         <li><a href="">INICIO</a></li>
+        <li><a href="">SOBRE MÍ</a></li>
+        <li><a href="">MISIÓN</a></li>
+        <li><a href="">BLOG</a></li>
+        <li><a href="">AGENDA</a></li>
+        <li><a href="">VOLUNTARIADO</a></li>
       </ul>
-      
-      <img class="dominicana" src="republica-dominicana.svg" alt="">
+
     </nav>
   `,
   styleUrl: './navegacion.component.css',

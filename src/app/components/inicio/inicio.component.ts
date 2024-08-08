@@ -10,10 +10,21 @@ import { NavegacionComponent } from "../navegacion/navegacion.component";
     NavegacionComponent
 ],
   template: `
-  <header>
+
       <app-navegacion></app-navegacion>
-      <img src="/inicio/inicio.png" alt="">
+     
+            <header>
+        <main>
+        <div class="contenido">
+          <h1>WALNEZY BORQUEZ</h1>
+          <h3>VICEPRESIDENTE</h3>
+          <a class="voluntariado" href="">VOLUNTARIADO</a>
+        </div>
+        <img class="colegio" src="/inicio/inicio-fondo.jpg" alt="">
+      </main>
   </header>
+     
+
 
   `,
   styleUrl: './inicio.component.css',

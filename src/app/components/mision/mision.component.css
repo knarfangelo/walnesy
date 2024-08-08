@@ -2,66 +2,34 @@ header{
   width: 100%;
   min-height: auto;
   display: flex;
-  align-items: center;
+  font-size: 1vw;
   background: linear-gradient(90deg, #296424 0%, #58d84f 100%);
 }
 
 .educacion, .seguridad, .trabajo{
   width: 33.33%;
-  height: 100%;
-  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: end;
+  justify-items: center;
+  position: relative;
 }
-.mision{
-  font-size: 300px;
-  position: absolute;
+p{
   width: 100%;
+  color: #fff;
+  text-shadow: 0.1em 0em 0em #015E42;
   text-align: center;
+  font-family: 'MiFuente';
+  font-size: 4em;
+  position: absolute;
 }
+
+.mision{
+  margin: 20px 0;
+}
+
 img{
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease; 
+  height: 80%;
+  object-fit: contain;
 }
-img:hover{
-  opacity: 0.5;
-}
-p {
-  color: #fff;
-  font-weight: bold;
-  font-family: 'MiFuente';
-  text-shadow: 4px 4px 1px #296424;
-}
-.educacion p{
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-  z-index: 15;
-  font-size: 50px;
-  margin-bottom: 20%;
-  font-style: italic;
-}
-.seguridad p{
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-  z-index: 15;
-  font-size: 50px;
-  margin-bottom: 20%;
-  font-style: italic;
-}
-.trabajo p{
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-  z-index: 15;
-  font-size: 50px;
-  margin-bottom: 20%;
-  font-style: italic;
-}
+
