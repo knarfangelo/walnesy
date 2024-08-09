@@ -5,7 +5,7 @@ nav{
   padding: 0 10%;
   position: fixed;
   z-index: 100;
-  background: linear-gradient(180deg, rgba(0,158,69,1) 70%, rgba(0,0,0,0) 100%);
+  background:#009e45cc
 }
 
 ul{

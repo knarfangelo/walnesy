@@ -12,6 +12,7 @@ header{
 .titulo{
   font-size: 80px;
   color: #fff;
+  margin-top: 0;
   text-shadow: 0.1em 0.1em 0em #015E42;
 }
 .fondo{

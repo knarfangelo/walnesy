@@ -10,6 +10,7 @@ header{
 .titulo{
   text-align: center;
   font-size: 80px;
+  margin-top: 0;
   color: #003b2a;
   font-family: 'MiFuente';
 }
@@ -18,7 +19,7 @@ header{
   height: 350px;
   display: flex;
   object-fit: cover;
-  border-radius: 25px;
+  border-radius: 25px 25px 0 0;
 }
 .contenido{
   padding: 0 40px;
@@ -67,9 +68,9 @@ button{
 }
 
 .swiper-button-agenda-prev{
-  left: 0; 
+  left: -35px; 
   
 }
 .swiper-button-agenda-next{
- right: 0;
+ right: -35px;
 }
