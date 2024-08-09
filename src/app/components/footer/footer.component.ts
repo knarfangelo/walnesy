@@ -16,11 +16,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     <div class="footer-links">
       <h3>Mapa del Sitio</h3>
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Conóceme</a></li>
-        <li><a href="#">Misión</a></li>
-        <li><a href="#">Agenda</a></li>
-        <li><a href="#">Voluntariado</a></li>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Conóceme</a></li>
+        <li><a href="#mision">Misión</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#voluntariado">Voluntariado</a></li>
       </ul>
     </div>
     <div class="footer-contact">
