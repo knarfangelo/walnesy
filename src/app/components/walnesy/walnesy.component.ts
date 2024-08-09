@@ -23,12 +23,12 @@ import { FooterComponent } from "../footer/footer.component";
     FooterComponent
 ],
   template: `
-    <app-inicio></app-inicio>
-    <app-nosotros></app-nosotros>
-    <app-mision></app-mision>
-    <app-blog></app-blog>
-    <app-agenda></app-agenda>
-    <app-voluntariado></app-voluntariado>
+    <app-inicio id="inicio"></app-inicio>
+    <app-nosotros id="nosotros"></app-nosotros>
+    <app-mision id="mision"></app-mision>
+    <app-blog id="blog"></app-blog>
+    <app-agenda id="agenda"></app-agenda>
+    <app-voluntariado id="voluntariado"></app-voluntariado>
     <app-footer></app-footer>
   `,
   styleUrl: './walnesy.component.css',
