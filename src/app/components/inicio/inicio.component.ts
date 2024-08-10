@@ -16,11 +16,8 @@ import { NavegacionComponent } from "../navegacion/navegacion.component";
             <header>
         <main>
         <div class="contenido">
-          <h1>WALNEZY BORQUEZ</h1>
-          <h3>VICEPRESIDENTE</h3>
-          <a class="voluntariado" href="#voluntariado">VOLUNTARIADO</a>
         </div>
-        <img class="colegio" src="/inicio/inicio-fondo.jpg" alt="">
+        <img class="colegio" src="/inicio/vallacontigo.jpg" alt="">
       </main>
   </header>
      
